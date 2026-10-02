@@ -1,0 +1,14 @@
+interface:
+  display_name: Text zu Video
+  short_description: Wandelt Texte in Video-Briefings und Szenenpläne um
+  default_prompt: Nutze $text-to-video, um einen Text in Kurzkonzept, Szenenplan,
+    Sprechertext und Video-Prompts umzuwandeln.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
